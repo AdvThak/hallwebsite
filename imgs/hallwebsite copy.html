@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>My Website</title>
+<link rel="stylesheet" href="style.css"></head>
+<body>
+    <!-- Header -->
+    <section id="header">
+        <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+            <a href="#hero">
+                <h1><span></span> <span>HALL</span> Merch</h1>
+            </a>
+            </div>
+            <div class="nav-list">
+            <div class="hamburger">
+                <div class="bar"></div>
+            </div>
+            <ul>
+                <li><a href="#hero" data-after="Home">Home</a></li>
+                <li><a href="#merch" data-after="Merch">Merch</a></li>
+                <li><a href="#contact" data-after="Contact">Contact</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+  <!-- End Header -->
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Hall <span></span></h1>
+                <h1>Merch <span></span></h1>
+                <a href="#merch" type="button" class="cta">Let's have a look!</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Merch Section -->
+    <section id="merch">
+        <div class="merch container">
+        <div class="merch-header">
+            <h1 class="section-title">Merch Collection</h1>
+            <p class="section-info">hover over images for different angles!</p>
+        </div>
+        <div class="all-merch">
+            <div class="merch-item">
+            <div class="merch-info">
+                    <h1>The Classic Hoodie</h1>
+                <h2>an absolute classic piece of merchandise that is also very comfy</h2>
+            </div>
+            <div class="merch-img">
+              <img src="./imgs/1.png" class="initial-image" alt="Initial Image">
+              <img src="./imgs/2.png" class="change-on-hover" alt="Hover Image">
+            </div>
+            </div>
+            <div class="merch-item">
+            <div class="merch-info">
+                  <h1>Y2K Crewneck</h1>
+              <h2>new edition of hall merch that immerses the user in cosiness and drip</h2>
+              </div>
+              <div class="merch-img">
+                <img src="./imgs/3.png" class="initial-image" alt="Initial Image">
+                <img src="./imgs/4.png" class="change-on-hover" alt="Hover Image">
+              </div>
+            </div>
+            <div class="merch-item">
+              <div class="merch-info">
+                <h1>Hall Jersey</h1>
+                <h2>another absolute classic but instead of a hoodie it's an epic jersey</h2>
+              </div>
+              <div class="merch-img">
+                <img src="./imgs/5.png" class="initial-image" alt="Initial Image">
+                <img src="./imgs/6.png" class="change-on-hover" alt="Hover Image">
+              </div>
+            </div>
+            <div class="merch-item">
+              <div class="merch-info">
+                  <h1>Hall Shorts</h1>
+                  <h2>a must have at any sporting event</h2>
+              </div>
+              <div class="merch-img">
+                <img src="./imgs/7.png" class="initial-image" alt="Initial Image">
+                <img src="./imgs/8.png" class="change-on-hover" alt="Hover Image">
+              </div>
+            </div>
+            <div class="merch-item">
+              <div class="merch-info">
+                      <h1>Reversible Bucket Hat</h1>
+                <h2>hey it's basically two for the price of one if you ask me</h2>
+              </div>
+                <div class="merch-img">
+                  <img src="./imgs/9.png" class="initial-image" alt="Initial Image">
+                  <img src="./imgs/10.png" class="change-on-hover" alt="Hover Image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    <!-- End Merch Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact container">
+        <div>
+            <h1 class="section-title">Contact <span></span></h1>
+        </div>
+        <div class="contact-items">
+            <div class="contact-item">
+            <div class="icon"><img src="./imgs/mess.png"></div>
+            <div class="contact-info">
+                <h1>Want some merch?</h1>
+                <h2>msg ops & comms directors on messenger and we shall supply the goods</h2>
+            </div>
+            </div>
+    
+              </div>
+            </div>
+          </div>
+        </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer container">
+        <div class="brand">
+            <h1><span></span> <span>HALL</span></h1>
+        </div>
+        <div class="social-icon">
+            <div class="social-item">
+                <a href="https://www.instagram.com/unsw_hall/">
+                    <img src="./imgs/insta.png">
+                </a>
+            </div>
+        </div>
+        <p>enjoy your merch!</p>
+        </div>
+    </section>
+    <!-- End Footer -->
+   
+      
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
